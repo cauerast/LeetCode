@@ -3,7 +3,6 @@
 
 int main(){
     std::vector<int> arr;
-    
     for(int i = 0; i < 10; i++){
         int n = arr[i] + arr[i + 1];
         arr.push_back(n);
