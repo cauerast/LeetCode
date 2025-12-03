@@ -1,13 +1,16 @@
 #include <iostream>
+#include <vector>
 
 int main(){
-    int arr[] = {0, 1};
+    std::vector<int> arr;
     
     for(int i = 0; i < 10; i++){
-        int n = arr[i] + arr[i + 1]
-        arr.append(n)
+        int n = arr[i] + arr[i + 1];
+        arr.push_back(n);
     }
     return 0;
 
-    std::cout << arr 
+    for(int p : arr){
+        std::cout << p;
+    }
 }
